@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\WebAPISampleProjectUsingVS2022.props" />
+</Project>
