@@ -6,7 +6,7 @@ namespace WebAPISampleProjectUsingVS2022.Models
     {
         public int EmpNo { get; set; }
         [Required]
-
+        [StringLength(10)]
         public string EmpName { get; set; }
         public string job { get; set; }
         [Range(1000,9999)]

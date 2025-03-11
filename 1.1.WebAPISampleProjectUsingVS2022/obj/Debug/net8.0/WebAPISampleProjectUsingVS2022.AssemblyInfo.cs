@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WebAPISampleProjectUsingVS2022")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+525976d43e12d20e1e49219b6a70f927e900800f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+040600d3003c32fdb52e1eac2d498e7171264a2e")]
 [assembly: System.Reflection.AssemblyProductAttribute("WebAPISampleProjectUsingVS2022")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WebAPISampleProjectUsingVS2022")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

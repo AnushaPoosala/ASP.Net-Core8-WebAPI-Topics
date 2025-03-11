@@ -1,4 +1,6 @@
 
+using WebAPISampleProjectUsingVS2022.Models.Repository_Pattern;
+
 namespace WebAPISampleProjectUsingVS2022
 {
     public class Program
@@ -13,6 +15,9 @@ namespace WebAPISampleProjectUsingVS2022
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
+
+            //Register REpository Pattern
+            builder.Services.AddSingleton<IEmpRepository,EmpRepository>();
 
             var app = builder.Build();
 
