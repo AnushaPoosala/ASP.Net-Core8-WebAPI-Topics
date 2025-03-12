@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "W1HZdiXGxwSnS6BJRgF7o/RGrpRnN2DNKknN5IGptTA=",
+  "Source": "WebAPIRouting",
+  "BasePath": "_content/WebAPIRouting",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

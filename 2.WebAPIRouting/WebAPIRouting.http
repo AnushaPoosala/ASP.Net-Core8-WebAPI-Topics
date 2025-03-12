@@ -1,0 +1,30 @@
+@WebAPIRouting_HostAddress = http://localhost:5176
+
+GET {{WebAPIRouting_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###Get All EmpList
+Get {{WebAPIRouting_HostAddress}}/api/emp
+Accept:application/json
+
+###Create new Employee
+Post {{WebAPIRouting_HostAddress}}/api/emp
+Content-Type: application/json
+{
+    "EmpName": "Brahma",
+    "job": "Manager",
+    "Salary": 1000
+ }
+
+###update the Existing Employee
+PUT {{WebAPIRouting_HostAddress}}/api/emp/1
+Content-Type: application/json
+{
+    "EmpNo": 1,
+    "EmpName": "Anusha",
+    "job": "Manager",
+    "Salary": 9997
+}
+
+### Delete Employee by id
+DELETE {{WebAPIRouting_HostAddress}}/api/emp/1
