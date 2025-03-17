@@ -4584,11 +4584,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\anush\\OneDrive\\Desktop\\OVN_Anusha_Learnings\\.NetCore\\ASP.Net-Core8-WebAPI-Topics\\1.1.WebAPISampleProjectUsingVS2022\\WebAPIRouting.csproj",
+      "projectUniqueName": "C:\\Users\\anush\\OneDrive\\Desktop\\OVN_Anusha_Learnings\\.NetCore\\ASP.Net-Core8-WebAPI-Topics\\2.WebAPIRouting\\WebAPIRouting.csproj",
       "projectName": "WebAPIRouting",
-      "projectPath": "C:\\Users\\anush\\OneDrive\\Desktop\\OVN_Anusha_Learnings\\.NetCore\\ASP.Net-Core8-WebAPI-Topics\\1.1.WebAPISampleProjectUsingVS2022\\WebAPIRouting.csproj",
+      "projectPath": "C:\\Users\\anush\\OneDrive\\Desktop\\OVN_Anusha_Learnings\\.NetCore\\ASP.Net-Core8-WebAPI-Topics\\2.WebAPIRouting\\WebAPIRouting.csproj",
       "packagesPath": "C:\\Users\\anush\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\anush\\OneDrive\\Desktop\\OVN_Anusha_Learnings\\.NetCore\\ASP.Net-Core8-WebAPI-Topics\\1.1.WebAPISampleProjectUsingVS2022\\obj\\",
+      "outputPath": "C:\\Users\\anush\\OneDrive\\Desktop\\OVN_Anusha_Learnings\\.NetCore\\ASP.Net-Core8-WebAPI-Topics\\2.WebAPIRouting\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

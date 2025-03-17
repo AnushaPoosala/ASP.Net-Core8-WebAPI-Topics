@@ -8,26 +8,45 @@ namespace ConsoleApp1
 {
     internal class Program
     {
+        public static int FindGCD(int n1, int n2, int max, int min)
+        {
+            //if (min == max) return min;
+            //while(max%min!=0)
+            //{
+            //    int temp = min;
+            //    min = max % min;
+            //    max = temp;
+            //}
+            //return min;
+            while (n1 > 0 && n2 > 0)
+            {
+                if (n1 > n2)
+                {
+                    n1 %= n2;
+                }
+                else
+                {
+                    n2 %= n1;
+                }
+            }
+            return (n1 == 0) ? n2 : n1;
+        }
+
         static void Main(string[] args)
         {
-            Console.WriteLine("enter a number n to check Amstrong or not");
-            int n= int.Parse(Console.ReadLine());
-            int n1 = n;
-            int sum= 0; int powerValue=0; 
-                         
-            powerValue=(int)Math.Log(n,10)+1;
-            Console.WriteLine("PowerValue is:{0} for Number:{1}", powerValue, n);
+            Console.Write("enter an integer a: ");
+            int a = int.Parse(Console.ReadLine());
 
-            while (n>0)
-            {
-                int m = n % 10;
-                sum = sum + (int)Math.Pow(m, powerValue);
-                Console.WriteLine("m is{0}, sum is {1}", m, sum);
-                n = n / 10 ;
-            }
-            if (sum == n1)
-                Console.WriteLine("number is Amstrong");
-            else Console.WriteLine("number is NOT Amstrong");
+            Console.Write("enter an integer b: ");
+            int b = int.Parse(Console.ReadLine());
+
+            int max = (a > b) ? a: b;
+            int min = (a < b) ? a : b;
+                       
+            int c=Program.FindGCD(a, b, min, max);
+            Console.WriteLine("GCD Createst Common Divisor of {0},{1} is:{2}", a, b,c);
+            Console.ReadLine();
+
 
         }
     }

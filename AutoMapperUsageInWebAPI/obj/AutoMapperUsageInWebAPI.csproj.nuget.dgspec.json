@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\anush\\OneDrive\\Desktop\\OVN_Anusha_Learnings\\.NetCore\\ASP.Net-Core8-WebAPI-Topics\\2.WebAPIRouting\\WebAPIRouting.csproj": {}
+    "C:\\Users\\anush\\OneDrive\\Desktop\\OVN_Anusha_Learnings\\.NetCore\\ASP.Net-Core8-WebAPI-Topics\\AutoMapperUsageInWebAPI\\AutoMapperUsageInWebAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\anush\\OneDrive\\Desktop\\OVN_Anusha_Learnings\\.NetCore\\ASP.Net-Core8-WebAPI-Topics\\2.WebAPIRouting\\WebAPIRouting.csproj": {
+    "C:\\Users\\anush\\OneDrive\\Desktop\\OVN_Anusha_Learnings\\.NetCore\\ASP.Net-Core8-WebAPI-Topics\\AutoMapperUsageInWebAPI\\AutoMapperUsageInWebAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\anush\\OneDrive\\Desktop\\OVN_Anusha_Learnings\\.NetCore\\ASP.Net-Core8-WebAPI-Topics\\2.WebAPIRouting\\WebAPIRouting.csproj",
-        "projectName": "WebAPIRouting",
-        "projectPath": "C:\\Users\\anush\\OneDrive\\Desktop\\OVN_Anusha_Learnings\\.NetCore\\ASP.Net-Core8-WebAPI-Topics\\2.WebAPIRouting\\WebAPIRouting.csproj",
+        "projectUniqueName": "C:\\Users\\anush\\OneDrive\\Desktop\\OVN_Anusha_Learnings\\.NetCore\\ASP.Net-Core8-WebAPI-Topics\\AutoMapperUsageInWebAPI\\AutoMapperUsageInWebAPI.csproj",
+        "projectName": "AutoMapperUsageInWebAPI",
+        "projectPath": "C:\\Users\\anush\\OneDrive\\Desktop\\OVN_Anusha_Learnings\\.NetCore\\ASP.Net-Core8-WebAPI-Topics\\AutoMapperUsageInWebAPI\\AutoMapperUsageInWebAPI.csproj",
         "packagesPath": "C:\\Users\\anush\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\anush\\OneDrive\\Desktop\\OVN_Anusha_Learnings\\.NetCore\\ASP.Net-Core8-WebAPI-Topics\\2.WebAPIRouting\\obj\\",
+        "outputPath": "C:\\Users\\anush\\OneDrive\\Desktop\\OVN_Anusha_Learnings\\.NetCore\\ASP.Net-Core8-WebAPI-Topics\\AutoMapperUsageInWebAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -45,9 +45,15 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
-            "Microsoft.AspNetCore.Mvc.Core": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[2.3.0, )"
+              "version": "[9.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.3, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
