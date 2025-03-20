@@ -13,7 +13,7 @@ namespace AutoMapperUsageInWebAPI.Models
         [Column(TypeName = "decimal(18, 2)")]
         public decimal Price { get; set; }
         //SerailNumber is like Category-Brand-Model-Year-ProductId
-        public string SerialNumber { get; set; } //ELE-DELL-Laptop-2025-001
+        public string? SerialNumber { get; set; } //ELE-DELL-Laptop-2025-001
         public bool IsActive { get; set; }
         public string Description { get; set; }
         public int CategoryId { get; set; }
