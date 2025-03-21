@@ -10,10 +10,10 @@ namespace AutoMapperUsageInWebAPI.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class ProductController : ControllerBase
+    public class ProductWithOutAutoMapperController : ControllerBase
     {
         private readonly ProductDbContext _productDbContext;
-        public ProductController(ProductDbContext context)
+        public ProductWithOutAutoMapperController(ProductDbContext context)
         {
             _productDbContext = context;
         }
@@ -66,6 +66,9 @@ namespace AutoMapperUsageInWebAPI.Controllers
         [HttpPost("CreateProduct")]
         public   async Task<ActionResult<ProductDTO>> CreateProductAsync(CreateProductDTO createProductDTO)
         {
+            if (!ModelState.IsValid)
+                return BadRequest(ModelState);
+
             var product = new Product {
                 Name = createProductDTO.Name,
                 Price = createProductDTO.Price,

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AutoMapperUsageInWebAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4d98e3bef8c912716ac08a9c7ef15c6ae44759ab")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+14b317acd1cbb57357d69914f0c45465794a4c29")]
 [assembly: System.Reflection.AssemblyProductAttribute("AutoMapperUsageInWebAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AutoMapperUsageInWebAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

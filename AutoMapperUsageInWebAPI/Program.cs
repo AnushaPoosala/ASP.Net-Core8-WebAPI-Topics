@@ -22,6 +22,13 @@ namespace AutoMapperUsageInWebAPI
                 options.JsonSerializerOptions.PropertyNamingPolicy = null;
             }
             );
+
+            //REgistering the Automapper(It will scans the assembly for profile)
+            //this scans the assembly contains program class for any classes inheriting the profiles  and it will register them automatically
+            builder.Services.AddAutoMapper(typeof(Program).Assembly);
+
+
+
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();

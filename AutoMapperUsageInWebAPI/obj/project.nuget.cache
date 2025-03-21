@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "FR6USycgPTjSVmS1lfwXtNdV8a8rk/6TPFnBggaajzPZZFBA8rNqZjD1k9gGDwXMQz+HeyV+IRHcoZSZYkUYng==",
+  "dgSpecHash": "iprwKYPiv/8voSjMHuRp+mO0zuT73z1IsWVwqNtLLkqsW361eLVV7KcOmEQrmdndXafhTli8TnH193m0iLOz3w==",
   "success": true,
   "projectFilePath": "C:\\Users\\anush\\OneDrive\\Desktop\\OVN_Anusha_Learnings\\.NetCore\\ASP.Net-Core8-WebAPI-Topics\\AutoMapperUsageInWebAPI\\AutoMapperUsageInWebAPI.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\anush\\.nuget\\packages\\automapper\\14.0.0\\automapper.14.0.0.nupkg.sha512",
     "C:\\Users\\anush\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\anush\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",
     "C:\\Users\\anush\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",

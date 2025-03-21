@@ -167,3 +167,4 @@ C:\Users\anush\OneDrive\Desktop\OVN_Anusha_Learnings\.NetCore\ASP.Net-Core8-WebA
 C:\Users\anush\OneDrive\Desktop\OVN_Anusha_Learnings\.NetCore\ASP.Net-Core8-WebAPI-Topics\AutoMapperUsageInWebAPI\obj\x64\Debug\net8.0\AutoMapperUsageInWebAPI.pdb
 C:\Users\anush\OneDrive\Desktop\OVN_Anusha_Learnings\.NetCore\ASP.Net-Core8-WebAPI-Topics\AutoMapperUsageInWebAPI\obj\x64\Debug\net8.0\AutoMapperUsageInWebAPI.genruntimeconfig.cache
 C:\Users\anush\OneDrive\Desktop\OVN_Anusha_Learnings\.NetCore\ASP.Net-Core8-WebAPI-Topics\AutoMapperUsageInWebAPI\obj\x64\Debug\net8.0\ref\AutoMapperUsageInWebAPI.dll
+C:\Users\anush\OneDrive\Desktop\OVN_Anusha_Learnings\.NetCore\ASP.Net-Core8-WebAPI-Topics\AutoMapperUsageInWebAPI\bin\x64\Debug\net8.0\AutoMapper.dll
