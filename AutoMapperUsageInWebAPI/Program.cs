@@ -39,7 +39,13 @@ namespace AutoMapperUsageInWebAPI
             }
             );
 
-           
+            builder.Services.AddDbContext<EComDBContext>(options =>
+            {
+                options.UseSqlServer(builder.Configuration.GetConnectionString("EComDBConfig"));
+            }
+            );
+
+
             var app = builder.Build();
 
             // Configure the HTTP request pipeline.
