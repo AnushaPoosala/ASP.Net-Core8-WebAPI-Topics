@@ -26,6 +26,8 @@ namespace AutoMapperUsageInWebAPI.MappingProfiles
             //This mapping is used when a new product is being created from the data provided by admin or any api user
             //When we insert data from UI(CreateProductDTO) into DB(Product)
             CreateMap<Models.DTOs.CreateProductDTO, Models.Product>();
+
+            
         }
     }
 }

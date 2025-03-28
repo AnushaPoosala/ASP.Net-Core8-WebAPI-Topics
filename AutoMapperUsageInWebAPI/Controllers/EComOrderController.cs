@@ -117,6 +117,38 @@ namespace AutoMapperUsageInWebAPI.Controllers
             }
         }
 
-        //cutomer id input, order output
+        //HomeWork:cutomer id input, order output
+
+        //Maps from Primitive to Complex  (PrimitiveAddressDTO->Address)
+
+        [HttpPost("CreateAddress")]
+        public async Task<ActionResult<AddressDTO>> CreateAddress([FromBody] PrimitiveAddressDTO primitiveAddressDTO)
+        {
+            if (primitiveAddressDTO == null)
+            {
+                return BadRequest("Address data is required");
+            }
+
+            try
+            {
+                //Map the PrimitiveAddressDTO to Address entity
+                var address = _mapper.Map<Address>(primitiveAddressDTO);
+
+                //Add the Address to the Addresses DbSet
+                _eComDBContext.Address.Add(address);
+                await _eComDBContext.SaveChangesAsync();
+
+                //Mapping the Address entity to the AddressDTO for Data Transfer purposes
+                var addressDTO = _mapper.Map<AddressDTO>(address);
+
+                return Ok(addressDTO);
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(StatusCodes.Status500InternalServerError, ex.Message);
+            }
+        }
+
+
     }
 }
