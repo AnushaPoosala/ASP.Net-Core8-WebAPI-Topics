@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "en8hJA0WBldIqPhj+S7IuQ1tRgvV9WwMQszwnXzZqJ56IqHPPX2OS2pybhC4+b0z+DJe1tNnlQTZdnTIOiXa9w==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\anush\\OneDrive\\Desktop\\OVN_Anusha_Learnings\\.NetCore\\ASP.Net-Core8-WebAPI-Topics\\ClientAppForHMAC\\ClientAppForHMAC.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\anush\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

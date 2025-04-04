@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SecurityTypesInASPNETCoreWebAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bc85acfa3eb0a2376629933a882c0bb80a9693b8")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9332c53e1a348bfa77bc06196d82067b8c1a3e02")]
 [assembly: System.Reflection.AssemblyProductAttribute("SecurityTypesInASPNETCoreWebAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SecurityTypesInASPNETCoreWebAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

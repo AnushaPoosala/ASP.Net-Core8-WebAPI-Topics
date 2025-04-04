@@ -1,0 +1,6 @@
+@DemoServerAppForHMAC_HostAddress = http://localhost:5171
+
+GET {{DemoServerAppForHMAC_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

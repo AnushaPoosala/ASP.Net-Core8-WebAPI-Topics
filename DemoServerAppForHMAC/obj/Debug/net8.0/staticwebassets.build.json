@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "RLCGua4rVpl7E2cSHV5NGCIqZmZRL6/lMvDawH9c9XA=",
+  "Source": "DemoServerAppForHMAC",
+  "BasePath": "_content/DemoServerAppForHMAC",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
